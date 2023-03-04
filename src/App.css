@@ -1,0 +1,11 @@
+.main-page-container {
+  background-color: rgb(217, 41, 28);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-container {
+  display: flex;
+  gap: 2rem;
+}
