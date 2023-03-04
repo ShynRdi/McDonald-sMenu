@@ -2,4 +2,63 @@
   background-color: rgb(239, 248, 255);
   padding: 1.25rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35vh;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.bottom-part-of-cart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.total-costs {
+  display: flex;
+  justify-content: space-between;
+}
+.discount-input-box {
+  display: flex;
+  justify-content: space-between;
+}
+#discountCode {
+  background-color: white;
+  border: 0;
+  width: max-content;
+  padding-left: 0.5rem;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.discount-submit {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(158, 15, 16);
+  width: 2rem;
+  height: 2rem;
+}
+.final-cost-box {
+  background-color: rgb(254, 199, 45);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.submit-button {
+  border-radius: 0.25rem;
+  color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(158, 15, 16);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
